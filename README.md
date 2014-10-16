@@ -27,3 +27,6 @@ Hopefully overriding `registration/passwords_reset_base.html` is enough
 to get things works. All four templates inherit from this base template
 so the common need of displaying a form should be covered.
 
+## From Email
+
+You will need to set your `DEFAULT_FROM_EMAIL` to an email you are allowed to send from.
